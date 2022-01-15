@@ -55,7 +55,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-.cir{
+
+.cir {
     height: 23px;
     width: 23px;
     border: 1px solid white;
@@ -64,6 +65,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .profiles {
     /* background-color: black; */
     height: auto;
@@ -71,7 +73,7 @@ body {
     margin: 2%;
 }
 
-.imges {
+.imges .img-div-sm {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -83,5 +85,140 @@ body {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    margin: 80% 0%;
+    margin: 10vh 0%;
+}
+
+.a {
+    background: url(images/Membs/WhatsApp\ Image\ 2022-01-10\ at\ 8.29.23\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.b {
+    background: url(images/Membs/06.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.c {
+    background: url(images/Membs/IMG-20211114-WA0037.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.d {
+    background: url(images/Membs/WhatsApp\ Image\ 2022-01-10\ at\ 8.10.11\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.e {
+    background: url(images/Membs/IMG-20211114-WA0036.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.f {
+    background: url(images/Membs/InShot_20220110_125106835.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.g {
+    background: url(images/Membs/IMG-20211114-WA0048.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.h {
+    background: url(images/Membs/IMG-20211114-WA0043.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.i {
+    background: url(images/Membs/IMG-20211114-WA0030.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.j {
+    background: url(images/Membs/IMG-20211114-WA0042.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.k {
+    background: url(images/Membs/IMG-20211114-WA0029.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.l {
+    background: url(images/Membs/IMG-20220110-WA0060.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.m {
+    background: url(images/Membs/IMG-20211114-WA0015.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.n {
+    background: url(images/Membs/IMG-20211124-WA0022\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.o {
+    background: url(images/Membs/IMG-20211114-WA0014.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.p {
+    background: url(images/Membs/IMG_20220110_123329.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.q {
+    background: url(images/Membs/WhatsApp\ Image\ 2022-01-10\ at\ 8.10.12\ PM\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.r {
+    background: url(images/Membs/IMG-20211114-WA0022.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.s {
+    background: url(images/Membs/IMG-20211114-WA0017.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.t {
+    background: url(images/Membs/IMG20201223074503-03.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
 }

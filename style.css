@@ -27,6 +27,9 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+body a{
+  text-decoration: none;
+}
 
 .first-page {
   width: 100vw;
