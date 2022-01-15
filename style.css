@@ -144,6 +144,7 @@ html {
 .div2-imgpre {
   margin-top: 20%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -215,6 +216,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .gallery-card, .report-card, .programes-card, .chronicle-card {

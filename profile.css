@@ -30,7 +30,7 @@ html {
 
 body {
     /* background-color: black; */
-    background-image: url('/images/bgsandlogos/pexels-pixabay-235985.jpg');
+    background-image: url('images/bgsandlogos/pexels-pixabay-235985.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
