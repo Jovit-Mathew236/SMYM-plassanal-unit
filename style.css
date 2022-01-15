@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  /* inline-size: 0%; */
+  outline: 0px;
+  font-family: 'Lora', serif;
+  color: white;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF5C00;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.first-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url("images/bgsandlogos/IMG_20211207_072639.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu-box {
+  position: absolute;
+  background-color: #2D2D2D;
+  height: 86px;
+  width: 100%;
+  align-items: center;
+}
+
+.menu-contents {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-and-tag {
+  display: flex;
+  justify-content: space-between;
+  width: 14vw;
+  align-items: center;
+  color: #FF5C00;
+}
+
+.logo-and-tag img {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.logo-and-tag p {
+  text-align: left;
+}
+
+.menu-head {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.menu-head p a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-head {
+  text-align: center;
+}
+
+.header-para {
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+}
+
+
+
+/* Second Page Start */
+
+.second-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url('images/bgsandlogos/fire-isolated-over-black-background-14157083.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagesdiv {
+  padding: 0% 5% 0% 5%;
+}
+
+.imgdivdir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgdivdir p {
+  position: absolute;
+  margin-top: 400px;
+}
+
+.div-dirimg {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  background: url(images/Membs/06.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.div2-imgpre {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgprea {
+  height: 300px;
+  width: 300px;
+  background: url(images/Membs/InShot_20220110_125106835.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.imgpreb {
+  height: 300px;
+  width: 300px;
+  background: url(images/Membs/IMG-20211114-WA0015.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.div-imgpreadiv .div-imgprebdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tra-crusor {
+  transition: all .5s ease;
+}
+
+.tra-crusor:hover {
+  transform: scale(1.02);
+}
+
+.allmemb a {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+
+/* Third Page Start */
+
+.third-page {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(0deg, rgba(58, 32, 0, 0.45), rgba(58, 32, 0, 0.45)), url("images/Membs/259721818_162251856091340_5530438891625692860_n.jpg");
+  background-blend-mode: normal, multiply;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.condent-thirdpage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carddiv {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery-card, .report-card, .programes-card, .chronicle-card {
+  height: 60vh;
+  width: 20vw;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h1-card-div {
+  margin-top: 28%;
+}
+
+.carddiv p {
+  font-size: 90%;
+  width: fit-content;
+  margin: 18% 15%;
+  text-align: left;
+}
+
+.gallery-card {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images.jfif');
+  background-size: contain;
+}
+
+.report-card {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(1\).jfif');
+  background-size: contain;
+}
+
+.programes-card {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(2\).jfif');
+  background-size: contain;
+}
+
+.chronicle-card {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(3\).jfif');
+  background-size: contain;
+}
+
+.tra-card-crusor {
+  transition: all .5s ease;
+}
+
+.tra-card-crusor:hover {
+  transform: translateY(-10px);
+}
+
+.detail-div {
+  height: 58%;
+  width: 100%;
+  background-color: #b84606;
+  border-radius: 10px;
+}
+
+/* Fourth Page Start */
+
+.fourth-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(46, 46, 46, 0.57) 0%, rgba(61, 11, 11, 0.57) 100%), url('images/bgsandlogos/rm222batch3-kul-21_1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-style: italic;
+}
+
+.content-forth-page {
+  padding: 10% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50%;
+}
+
+/* Fifth Page Start */
+
+.fifth-page {
+  height: 80vh;
+  width: 100vw;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.768) 0%, rgba(0, 0, 0, 0.8) 100%), url('images/bgsandlogos/youth.jpg');
+  background-position: center;
+  background-position-y: 30vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.contents-fivth-page {
+  padding: 20vh 10vw 5vh 10vw ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fifth-head {
+  font-weight: 300;
+  font-size: 50px;
+  color: #FF5C00;
+}
+
+.fifth-para {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.social-media {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media div {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.social-media .insta-img {
+  background: url('images/bgsandlogos/Glossy-Instagram-icon-PNG.png');
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media .whtsapp-img {
+  background: url('images/bgsandlogos/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png');
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media .fbk-img {
+  background: url('images/bgsandlogos/2021_Facebook_icon.svg.png');
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Footer Starts */
+
+
+.footer{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #2B1C0B;
+}
+
+.footp{
+  font-size: 20px;
+}
+
+.copyright{
+  margin-top: 5vh;
+  font-size: 15px;
+  color: #FF5C00;
+}
