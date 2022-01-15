@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* inline-size: 0%; */
+    outline: 0px;
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF5C00;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    /* background-color: black; */
+    background-image: url('/images/bgsandlogos/pexels-pixabay-235985.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home-btn {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.home-btn a {
+    text-decoration: none;
+}
+
+.btn-home {
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cir{
+    height: 23px;
+    width: 23px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profiles {
+    /* background-color: black; */
+    height: auto;
+    width: auto;
+    margin: 2%;
+}
+
+.imges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.images-div {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 80% 0%;
+}
