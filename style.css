@@ -77,7 +77,7 @@ body a{
   align-items: center;
   margin-right: 20px;
   justify-content: space-between;
-  width: 30vw;
+  width: calc(40vw - 5vh);
 }
 
 .menu-head p a {
@@ -109,6 +109,16 @@ body a{
 }
 
 /* first page responsive */
+@media only screen and (max-width: 750px){
+  .menu-head{
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px){
+  .menu-head{
+    width: calc(55vw - 5vh);
+  }
+}
 @media only screen and (max-width: 1350px){
   .header-para p{
     width: 70%;
@@ -208,12 +218,14 @@ body a{
 /* second page responsive */
 @media only screen and (max-width: 670px){
   .div2-imgpre{
-    margin-top: 25vh;
+    margin: 35vh 0vh 4vh 0vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
   }
- 
+  .allmemb{
+    padding-bottom: 5vh;
+  }
 }
 
 /* Third Page Start */
@@ -300,7 +312,50 @@ body a{
   background-color: #b84606;
   border-radius: 10px;
 }
-
+/* third page respioonisive */
+@media only screen and (max-width: 1600px){
+  .gallery-card, .report-card, .programes-card, .chronicle-card{
+    height: calc(45vw - 10vh);
+    width: 300px;
+    margin: 10px;
+  }
+  .carddiv{
+    justify-content: center;
+  }
+  .third-page{
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1150px){
+  .gallery-card, .report-card, .programes-card, .chronicle-card{
+    height: calc(65vw - 10vh);
+    width: 300px;
+    margin: 10px;
+  }
+  .carddiv{
+    justify-content: center;
+  }
+  .third-page{
+    height: auto;
+  }
+}
+@media only screen and (max-width: 720px){
+  .gallery-card, .report-card, .programes-card, .chronicle-card{
+    width: 300px;
+    margin: 10px;
+  }
+  .carddiv{
+    justify-content: center;
+  }
+  .third-page{
+    height: auto;
+  }
+}
+@media only screen and (max-width: 650px){
+  .gallery-card, .report-card, .programes-card, .chronicle-card{
+    height: calc(100vw - 5vh);
+  }
+}
 /* Fourth Page Start */
 
 .fourth-page {
@@ -411,4 +466,17 @@ body a{
   margin-top: 5vh;
   font-size: 15px;
   color: #FF5C00;
+}
+
+
+
+@media only screen and (max-width: 700px){
+  .second-page, .third-page, .fourth-page, .fifth-page, .footer{
+    height: auto;
+  }
+}
+@media only screen and (max-width: 700px){
+  .first-page{
+    height: 120vh;
+  }
 }
