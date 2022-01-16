@@ -57,7 +57,6 @@ body a{
 .logo-and-tag {
   display: flex;
   justify-content: space-between;
-  width: 14vw;
   align-items: center;
   color: #FF5C00;
 }
@@ -70,6 +69,7 @@ body a{
 
 .logo-and-tag p {
   text-align: left;
+  margin-left: 20px;
 }
 
 .menu-head {
@@ -101,10 +101,24 @@ body a{
   font-size: 20px;
   line-height: 38px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header-para p{
+  width: 60%;
 }
 
-
-
+/* first page responsive */
+@media only screen and (max-width: 1350px){
+  .header-para p{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .header-para p{
+    width: 90%;
+  }
+}
 /* Second Page Start */
 
 .second-page {
@@ -145,7 +159,7 @@ body a{
 }
 
 .div2-imgpre {
-  margin-top: 20%;
+  margin-top: 30vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -191,7 +205,16 @@ body a{
   margin-bottom: 10px;
   text-decoration: none;
 }
-
+/* second page responsive */
+@media only screen and (max-width: 670px){
+  .div2-imgpre{
+    margin-top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+ 
+}
 
 /* Third Page Start */
 
