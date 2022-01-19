@@ -222,3 +222,7 @@ body {
     background-size: cover;
     box-sizing: border-box;
 }
+
+#name{
+    margin-top: 260px;
+}
