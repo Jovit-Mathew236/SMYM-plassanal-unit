@@ -132,6 +132,7 @@ body {
 
 .g {
     background: url(images/Membs/IMG-20211114-WA0048.jpg);
+    background-position: center;
     background-size: cover;
     box-sizing: border-box;
 }
