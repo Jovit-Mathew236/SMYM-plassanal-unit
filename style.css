@@ -375,7 +375,13 @@ body a{
   justify-content: space-evenly;
   height: 50%;
 }
+/* Reponsive Fourth page */
 
+@media only screen and (max-width: 650px){
+  .content-forth-page{
+    padding: 20%;
+  }
+}
 /* Fifth Page Start */
 
 .fifth-page {
@@ -445,6 +451,24 @@ body a{
   background-position: center;
   background-size: cover;
 }
+/* Fifth Page resonsive */
+
+@media only screen and (max-width: 430px){
+  .fifth-page{
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px){
+  .contents-fivth-page {
+    padding: 10vh 10vw 5vh 10vw ;
+  }
+  .social-media{
+    margin-top: 10%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 /* Footer Starts */
 
@@ -467,7 +491,21 @@ body a{
   font-size: 15px;
   color: #FF5C00;
 }
+.Powered{
+  font-size: 15px;
+  color: #FF5C00;
+}
+.Powered a{
+  color: #FF5C00;
+}
+/* Responsive footer */
+@media only screen and (max-width: 700px){
+  .footer-content{
+    margin: 20px;
+  }
+}
 
+/* Responsive pages */
 
 
 @media only screen and (max-width: 700px){
