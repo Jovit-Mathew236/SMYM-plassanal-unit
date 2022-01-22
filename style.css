@@ -249,7 +249,7 @@ body a{
 }
 
 .carddiv {
-  width: 90vw;
+  width: max-content;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -315,7 +315,7 @@ body a{
 /* third page respioonisive */
 @media only screen and (max-width: 1600px){
   .gallery-card, .report-card, .programes-card, .chronicle-card{
-    height: calc(45vw - 10vh);
+    height: calc(40vw - 10vh);
     width: 300px;
     margin: 10px;
   }
