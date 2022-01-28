@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    /* inline-size: 0%; */
+    outline: 0px;
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+}
+body {
+    padding: 10vh 10vw;
+    height: 100vh;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    background-image: url('images/bgsandlogos/pexels-tirachard-kumtanom-733853.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(9px);
+}
+
+.card-div {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.card-div a {
+    text-decoration: none;
+    color: white;
+}
+.first-card {
+    height: 90%;
+    width: 250px;
+    margin: 20px;
+    background-image: linear-gradient(45deg, #ff8100, #fb00ff);
+    border: 1px solid white;
+    box-shadow: 1px 1px 20px 0px #454343cf;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.first-card p {
+    font-size: 40px;
+}
