@@ -10,7 +10,8 @@
 }
 body {
     padding: 10vh 10vw;
-    height: 100vh;
+    height: 1000vh;
+    overflow: hidden;
     font-family: 'Lora', serif;
     text-decoration: none;
     background-image: url('images/bgsandlogos/pexels-tirachard-kumtanom-733853.jpg');
@@ -45,6 +46,10 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    transition: .2s ease-in-out;
+}
+.first-card:hover{
+    transform: scale(1.1);
 }
 .first-card p {
     font-size: 40px;
