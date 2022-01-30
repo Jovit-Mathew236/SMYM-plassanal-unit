@@ -10,8 +10,7 @@
 }
 body {
     padding: 10vh 10vw;
-    height: 1000vh;
-    overflow: hidden;
+    height: 300vh;
     font-family: 'Lora', serif;
     text-decoration: none;
     background-image: url('images/bgsandlogos/pexels-tirachard-kumtanom-733853.jpg');
