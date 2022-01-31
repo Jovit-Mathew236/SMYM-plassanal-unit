@@ -34,7 +34,7 @@ body a{
 .first-page {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url("images/bgsandlogos/IMG_20211207_072639.jpg");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url("images/bgsandlogos/IMG_20211207_072639.jpeg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -134,7 +134,7 @@ body a{
 .second-page {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url('images/bgsandlogos/fire-isolated-over-black-background-14157083.jpg');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url('images/bgsandlogos/fire-isolated-over-black-background-14157083.jpeg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -160,7 +160,7 @@ body a{
   position: absolute;
   height: 350px;
   width: 350px;
-  background: url(images/Membs/06.jpg);
+  background: url(images/Membs/06.jpeg);
   background-position: center;
   background-size: cover;
   border: 10px solid #FFFFFF;
@@ -178,7 +178,7 @@ body a{
 .imgprea {
   height: 300px;
   width: 300px;
-  background: url(images/Membs/InShot_20220110_125106835.jpg);
+  background: url(images/Membs/InShot_20220110_125106835.jpeg);
   background-position: center;
   background-size: cover;
   border: 10px solid #FFFFFF;
@@ -189,7 +189,7 @@ body a{
 .imgpreb {
   height: 300px;
   width: 300px;
-  background: url(images/Membs/IMG-20211114-WA0015.jpg);
+  background: url(images/Membs/IMG-20211114-WA0015.jpeg);
   background-position: center;
   background-size: cover;
   border: 10px solid #FFFFFF;
@@ -233,7 +233,7 @@ body a{
 .third-page {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(0deg, rgba(58, 32, 0, 0.45), rgba(58, 32, 0, 0.45)), url("images/Membs/259721818_162251856091340_5530438891625692860_n.jpg");
+  background: linear-gradient(0deg, rgba(58, 32, 0, 0.45), rgba(58, 32, 0, 0.45)), url("images/Membs/259721818_162251856091340_5530438891625692860_n.jpeg");
   background-blend-mode: normal, multiply;
   background-position: center;
   background-size: cover;
@@ -279,22 +279,22 @@ body a{
 }
 
 .gallery-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images.jfif');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images.jpeg');
   background-size: contain;
 }
 
 .report-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(1\).jfif');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(1\).jpeg');
   background-size: contain;
 }
 
 .programes-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(2\).jfif');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(2\).jpeg');
   background-size: contain;
 }
 
 .chronicle-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(3\).jfif');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(3\).jpeg');
   background-size: contain;
 }
 
@@ -361,7 +361,7 @@ body a{
 .fourth-page {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(46, 46, 46, 0.57) 0%, rgba(61, 11, 11, 0.57) 100%), url('images/bgsandlogos/rm222batch3-kul-21_1.jpg');
+  background: linear-gradient(180deg, rgba(46, 46, 46, 0.57) 0%, rgba(61, 11, 11, 0.57) 100%), url('images/bgsandlogos/rm222batch3-kul-21_1.jpeg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -387,7 +387,7 @@ body a{
 .fifth-page {
   height: 80vh;
   width: 100vw;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.768) 0%, rgba(0, 0, 0, 0.8) 100%), url('images/bgsandlogos/youth.jpg');
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.768) 0%, rgba(0, 0, 0, 0.8) 100%), url('images/bgsandlogos/youth.jpeg');
   background-position: center;
   background-position-y: 30vh;
   background-size: cover;
