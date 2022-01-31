@@ -7,9 +7,23 @@
     -o-user-select: none;
     user-select: none;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #FF5C00;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: none;
+  }
+  
 
 body {
     margin: 0%;
+    overflow-x: hidden;
 }
 
 .section {
