@@ -214,6 +214,7 @@ body a{
 .allmemb a {
   margin-bottom: 10px;
   text-decoration: none;
+  text-weight:500;
 }
 /* second page responsive */
 @media only screen and (max-width: 670px){
