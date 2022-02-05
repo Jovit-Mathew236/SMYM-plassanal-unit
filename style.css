@@ -27,7 +27,8 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-body a{
+
+body a {
   text-decoration: none;
 }
 
@@ -72,12 +73,22 @@ body a{
   margin-left: 20px;
 }
 
+.menu-btn {
+  z-index: 1;
+  background: none;
+  border: none;
+  padding-right: 15px;
+  display: none;
+  transition: 1s ease-in-out;
+}
+
 .menu-head {
   display: flex;
   align-items: center;
   margin-right: 20px;
   justify-content: space-between;
   width: calc(40vw - 5vh);
+  transition: 1s ease-in-out;
 }
 
 .menu-head p a {
@@ -104,31 +115,41 @@ body a{
   display: flex;
   justify-content: center;
 }
-.header-para p{
+
+.header-para p {
   width: 60%;
 }
 
 /* first page responsive */
-@media only screen and (max-width: 750px){
-  .menu-head{
-    display: none;
+@media only screen and (max-width: 750px) {
+  .menu-btn{
+    display: unset;
+  }
+  .menu-head {
+    flex-direction: column;
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    height: 240px;
+    top: -280px;
+    left: 0px;
+    background-color: #343434e6;
+    padding: 20px 0px;
   }
 }
-@media only screen and (max-width: 750px){
-  .menu-head{
-    width: calc(55vw - 5vh);
-  }
-}
-@media only screen and (max-width: 1350px){
-  .header-para p{
+
+@media only screen and (max-width: 1350px) {
+  .header-para p {
     width: 70%;
   }
 }
-@media only screen and (max-width: 1000px){
-  .header-para p{
+
+@media only screen and (max-width: 1000px) {
+  .header-para p {
     width: 90%;
   }
 }
+
 /* Second Page Start */
 
 .second-page {
@@ -214,17 +235,18 @@ body a{
 .allmemb a {
   margin-bottom: 10px;
   text-decoration: none;
-  text-weight:900;
 }
+
 /* second page responsive */
-@media only screen and (max-width: 670px){
-  .div2-imgpre{
+@media only screen and (max-width: 670px) {
+  .div2-imgpre {
     margin: 35vh 0vh 4vh 0vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
   }
-  .allmemb{
+
+  .allmemb {
     padding-bottom: 5vh;
   }
 }
@@ -313,50 +335,61 @@ body a{
   background-color: #b84606;
   border-radius: 10px;
 }
+
 /* third page respioonisive */
-@media only screen and (max-width: 1600px){
-  .gallery-card, .report-card, .programes-card, .chronicle-card{
+@media only screen and (max-width: 1600px) {
+  .gallery-card, .report-card, .programes-card, .chronicle-card {
     height: calc(40vw - 10vh);
     width: 300px;
     margin: 10px;
   }
-  .carddiv{
+
+  .carddiv {
     justify-content: center;
   }
-  .third-page{
+
+  .third-page {
     height: auto;
   }
 }
-@media only screen and (max-width: 1150px){
-  .gallery-card, .report-card, .programes-card, .chronicle-card{
+
+@media only screen and (max-width: 1150px) {
+  .gallery-card, .report-card, .programes-card, .chronicle-card {
     height: calc(50vw - 10vh);
     width: 300px;
     margin: 10px;
   }
-  .carddiv{
+
+  .carddiv {
     justify-content: center;
   }
-  .third-page{
+
+  .third-page {
     height: auto;
   }
 }
-@media only screen and (max-width: 720px){
-  .gallery-card, .report-card, .programes-card, .chronicle-card{
+
+@media only screen and (max-width: 720px) {
+  .gallery-card, .report-card, .programes-card, .chronicle-card {
     width: 300px;
     margin: 10px;
   }
-  .carddiv{
+
+  .carddiv {
     justify-content: center;
   }
-  .third-page{
+
+  .third-page {
     height: auto;
   }
 }
-@media only screen and (max-width: 650px){
-  .gallery-card, .report-card, .programes-card, .chronicle-card{
+
+@media only screen and (max-width: 650px) {
+  .gallery-card, .report-card, .programes-card, .chronicle-card {
     height: calc(100vw - 5vh);
   }
 }
+
 /* Fourth Page Start */
 
 .fourth-page {
@@ -376,13 +409,15 @@ body a{
   justify-content: space-evenly;
   height: 50%;
 }
+
 /* Reponsive Fourth page */
 
-@media only screen and (max-width: 650px){
-  .content-forth-page{
+@media only screen and (max-width: 650px) {
+  .content-forth-page {
     padding: 20%;
   }
 }
+
 /* Fifth Page Start */
 
 .fifth-page {
@@ -398,7 +433,7 @@ body a{
 }
 
 .contents-fivth-page {
-  padding: 20vh 10vw 5vh 10vw ;
+  padding: 20vh 10vw 5vh 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -452,18 +487,21 @@ body a{
   background-position: center;
   background-size: cover;
 }
+
 /* Fifth Page resonsive */
 
-@media only screen and (max-width: 430px){
-  .fifth-page{
+@media only screen and (max-width: 430px) {
+  .fifth-page {
     display: block;
   }
 }
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
   .contents-fivth-page {
-    padding: 10vh 10vw 5vh 10vw ;
+    padding: 10vh 10vw 5vh 10vw;
   }
-  .social-media{
+
+  .social-media {
     margin-top: 10%;
     width: 70%;
     display: flex;
@@ -474,34 +512,37 @@ body a{
 /* Footer Starts */
 
 
-.footer{
+.footer {
   height: 20vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:  #2B1C0B;
+  background-color: #2B1C0B;
 }
 
-.footp{
+.footp {
   font-size: 20px;
 }
 
-.copyright{
+.copyright {
   margin-top: 5vh;
   font-size: 15px;
   color: #FF5C00;
 }
-.Powered{
+
+.Powered {
   font-size: 15px;
   color: #FF5C00;
 }
-.Powered a{
+
+.Powered a {
   color: #FF5C00;
 }
+
 /* Responsive footer */
-@media only screen and (max-width: 700px){
-  .footer-content{
+@media only screen and (max-width: 700px) {
+  .footer-content {
     margin: 20px;
   }
 }
@@ -509,13 +550,14 @@ body a{
 /* Responsive pages */
 
 
-@media only screen and (max-width: 700px){
-  .second-page, .third-page, .fourth-page, .fifth-page, .footer{
+@media only screen and (max-width: 700px) {
+  .second-page, .third-page, .fourth-page, .fifth-page, .footer {
     height: auto;
   }
 }
-@media only screen and (max-width: 700px){
-  .first-page{
+
+@media only screen and (max-width: 700px) {
+  .first-page {
     height: 120vh;
   }
 }
