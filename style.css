@@ -65,13 +65,13 @@ body a {
 .logo-and-tag img {
   height: 70px;
   width: 70px;
-  border-radius: 10px;
+  border-radius: 20px 5px;
 }
 
 .logo-and-tag p {
   text-align: left;
   margin-left: 20px;
-  color:orange;
+  color: #FF5C00;
 }
 
 .menu-btn {
