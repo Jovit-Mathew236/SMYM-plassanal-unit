@@ -23,7 +23,8 @@
   
 body {
     padding: 10vh 10vw;
-    height: 300vh;
+    min-height: 100vh;
+    height: auto;
     font-family: 'Lora', serif;
     text-decoration: none;
     background-image: url('images/bgsandlogos/pexels-tirachard-kumtanom-733853.jpeg');
@@ -34,7 +35,7 @@ body {
 }
 
 .card-div {
-    height: 400px;
+    /* height: 400px; */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +46,7 @@ body {
 .card-div a {
     text-decoration: none;
     color: white;
-    height: 90%;
+    height: 400px;
     width: 250px;
 }
 .first-card {
