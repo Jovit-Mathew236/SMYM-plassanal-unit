@@ -8,6 +8,19 @@
     color: white;
     text-align: center;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #FF5C00;
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: none;
+  }
+  
 body {
     padding: 10vh 10vw;
     height: 300vh;
@@ -32,10 +45,11 @@ body {
 .card-div a {
     text-decoration: none;
     color: white;
+    height: 90%;
+    width: 250px;
 }
 .first-card {
     height: 90%;
-    width: 250px;
     margin: 20px;
     background-image: linear-gradient(45deg, #ff8100, #fb00ff);
     border: 1px solid white;
