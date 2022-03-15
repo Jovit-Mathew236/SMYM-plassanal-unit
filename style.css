@@ -46,10 +46,12 @@ body a {
   background-color: #2D2D2D;
   height: 86px;
   width: 100%;
+  display: flex;
   align-items: center;
 }
 
 .menu-contents {
+  width: 100%;
   padding: 8px;
   display: flex;
   justify-content: space-between;
@@ -156,7 +158,7 @@ body a {
 .second-page {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url('images/bgsandlogos/fire-isolated-over-black-background-14157083.jpeg');
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.513) 64.9%, rgba(48, 26, 24, 0.9) 100%), url('images/bgsandlogos/fire-isolated-over-black-background-14157083.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -306,17 +308,17 @@ body a {
 }
 
 .gallery-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images.jpeg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images.jpg');
   background-size: contain;
 }
 
 .report-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(1\).jpeg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(1\).png');
   background-size: contain;
 }
 
 .programes-card {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(2\).jpeg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bgsandlogos/images\ \(2\).jpg');
   background-size: contain;
 }
 
@@ -336,8 +338,8 @@ body a {
 .detail-div {
   height: 58%;
   width: 100%;
-  background-color: #b84606;
-  border-radius: 10px;
+  background-color: #fe6400;
+  border-radius: 0px 150px 7px 7px;
 }
 
 /* third page respioonisive */
